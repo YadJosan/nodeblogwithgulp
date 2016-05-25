@@ -1,0 +1,37 @@
+{
+    "name": "HelloWorld",
+    "description": "",
+    "main": "app.js",
+    "authors": [
+    "Nv <nv@example.com>"
+  ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "bootstrap": "^3.3.6",
+        "font-awesome": "^4.6.1"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/js/bootstrap.js",
+                "dist/css/bootstrap.css",
+                "less/bootstrap.less"
+            ]
+        },
+        "font-awesome": {
+            "main": [
+                "less/font-awesome.less",
+                "css/font-awesome.css",
+                "scss/font-awesome.scss"
+            ]
+        }
+    }
+}
